@@ -1,3 +1,42 @@
 body {
   background: papayawhip;
 }
+
+.container {
+  width: 80%;
+  height: px;
+  margin: 0 auto;
+  border: 5px solid;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.a {
+  width: 150px;
+  height: 50px;
+  padding: 1em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 100%;
+}
+.b {
+  width: 200px;
+  height: 100px;
+  padding: 1em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: 75%;
+} 
+.c {
+  width: auto;
+  height: auto;
+  padding: 1em;
+  text-align: center;
+  border: 5px solid;
+  border-radius: 10px;
+  flex: auto;
+}
+
